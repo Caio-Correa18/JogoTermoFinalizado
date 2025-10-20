@@ -52,10 +52,10 @@ namespace TemoApp
 
                 coluna = 1;
             }
-            
-                
-            
-                             
+
+
+
+
         }
 
 
@@ -113,8 +113,9 @@ namespace TemoApp
 
         }
 
-        
-        
+        private void Botões(object sender, KeyPressEventArgs e)
+        {
 
+        }
     }
 }

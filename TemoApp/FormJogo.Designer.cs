@@ -102,6 +102,7 @@
             btnTeclaQ.Text = "Q";
             btnTeclaQ.UseVisualStyleBackColor = true;
             btnTeclaQ.Click += btnTeclado_Click;
+            btnTeclaQ.KeyPress += Botões;
             // 
             // btnTeclaW
             // 
@@ -112,6 +113,7 @@
             btnTeclaW.Text = "W";
             btnTeclaW.UseVisualStyleBackColor = true;
             btnTeclaW.Click += btnTeclado_Click;
+            btnTeclaW.KeyPress += Botões;
             // 
             // btnTeclaE
             // 
@@ -122,6 +124,7 @@
             btnTeclaE.Text = "E";
             btnTeclaE.UseVisualStyleBackColor = true;
             btnTeclaE.Click += btnTeclado_Click;
+            btnTeclaE.KeyPress += Botões;
             // 
             // btnTeclaR
             // 
@@ -132,6 +135,7 @@
             btnTeclaR.Text = "R";
             btnTeclaR.UseVisualStyleBackColor = true;
             btnTeclaR.Click += btnTeclado_Click;
+            btnTeclaR.KeyPress += Botões;
             // 
             // btnTeclaT
             // 
@@ -142,6 +146,7 @@
             btnTeclaT.Text = "T";
             btnTeclaT.UseVisualStyleBackColor = true;
             btnTeclaT.Click += btnTeclado_Click;
+            btnTeclaT.KeyPress += Botões;
             // 
             // btnTeclaY
             // 
@@ -152,6 +157,7 @@
             btnTeclaY.Text = "Y";
             btnTeclaY.UseVisualStyleBackColor = true;
             btnTeclaY.Click += btnTeclado_Click;
+            btnTeclaY.KeyPress += Botões;
             // 
             // btnTeclaU
             // 
@@ -162,6 +168,7 @@
             btnTeclaU.Text = "U";
             btnTeclaU.UseVisualStyleBackColor = true;
             btnTeclaU.Click += btnTeclado_Click;
+            btnTeclaU.KeyPress += Botões;
             // 
             // btnTeclaI
             // 
@@ -172,6 +179,7 @@
             btnTeclaI.Text = "I";
             btnTeclaI.UseVisualStyleBackColor = true;
             btnTeclaI.Click += btnTeclado_Click;
+            btnTeclaI.KeyPress += Botões;
             // 
             // btnTeclaO
             // 
@@ -182,6 +190,7 @@
             btnTeclaO.Text = "O";
             btnTeclaO.UseVisualStyleBackColor = true;
             btnTeclaO.Click += btnTeclado_Click;
+            btnTeclaO.KeyPress += Botões;
             // 
             // btnTeclaP
             // 
@@ -192,6 +201,7 @@
             btnTeclaP.Text = "P";
             btnTeclaP.UseVisualStyleBackColor = true;
             btnTeclaP.Click += btnTeclado_Click;
+            btnTeclaP.KeyPress += Botões;
             // 
             // btnTeclaA
             // 
@@ -202,6 +212,7 @@
             btnTeclaA.Text = "A";
             btnTeclaA.UseVisualStyleBackColor = true;
             btnTeclaA.Click += btnTeclado_Click;
+            btnTeclaA.KeyPress += Botões;
             // 
             // btnTeclaS
             // 
@@ -212,6 +223,7 @@
             btnTeclaS.Text = "S";
             btnTeclaS.UseVisualStyleBackColor = true;
             btnTeclaS.Click += btnTeclado_Click;
+            btnTeclaS.KeyPress += Botões;
             // 
             // btnTeclaD
             // 
@@ -222,6 +234,7 @@
             btnTeclaD.Text = "D";
             btnTeclaD.UseVisualStyleBackColor = true;
             btnTeclaD.Click += btnTeclado_Click;
+            btnTeclaD.KeyPress += Botões;
             // 
             // btnTeclaF
             // 
@@ -232,6 +245,7 @@
             btnTeclaF.Text = "F";
             btnTeclaF.UseVisualStyleBackColor = true;
             btnTeclaF.Click += btnTeclado_Click;
+            btnTeclaF.KeyPress += Botões;
             // 
             // btnTeclaG
             // 
@@ -242,6 +256,7 @@
             btnTeclaG.Text = "G";
             btnTeclaG.UseVisualStyleBackColor = true;
             btnTeclaG.Click += btnTeclado_Click;
+            btnTeclaG.KeyPress += Botões;
             // 
             // btnTeclaH
             // 
@@ -252,6 +267,7 @@
             btnTeclaH.Text = "H";
             btnTeclaH.UseVisualStyleBackColor = true;
             btnTeclaH.Click += btnTeclado_Click;
+            btnTeclaH.KeyPress += Botões;
             // 
             // btnTeclaJ
             // 
@@ -262,6 +278,7 @@
             btnTeclaJ.Text = "J";
             btnTeclaJ.UseVisualStyleBackColor = true;
             btnTeclaJ.Click += btnTeclado_Click;
+            btnTeclaJ.KeyPress += Botões;
             // 
             // btnTeclaK
             // 
@@ -272,6 +289,7 @@
             btnTeclaK.Text = "K";
             btnTeclaK.UseVisualStyleBackColor = true;
             btnTeclaK.Click += btnTeclado_Click;
+            btnTeclaK.KeyPress += Botões;
             // 
             // btnTeclaL
             // 
@@ -282,6 +300,7 @@
             btnTeclaL.Text = "L";
             btnTeclaL.UseVisualStyleBackColor = true;
             btnTeclaL.Click += btnTeclado_Click;
+            btnTeclaL.KeyPress += Botões;
             // 
             // btnTeclaZ
             // 
@@ -292,6 +311,7 @@
             btnTeclaZ.Text = "Z";
             btnTeclaZ.UseVisualStyleBackColor = true;
             btnTeclaZ.Click += btnTeclado_Click;
+            btnTeclaZ.KeyPress += Botões;
             // 
             // btnTeclaX
             // 
@@ -302,6 +322,7 @@
             btnTeclaX.Text = "X";
             btnTeclaX.UseVisualStyleBackColor = true;
             btnTeclaX.Click += btnTeclado_Click;
+            btnTeclaX.KeyPress += Botões;
             // 
             // btnTeclaC
             // 
@@ -312,6 +333,7 @@
             btnTeclaC.Text = "C";
             btnTeclaC.UseVisualStyleBackColor = true;
             btnTeclaC.Click += btnTeclado_Click;
+            btnTeclaC.KeyPress += Botões;
             // 
             // btnTeclaV
             // 
@@ -322,6 +344,7 @@
             btnTeclaV.Text = "V";
             btnTeclaV.UseVisualStyleBackColor = true;
             btnTeclaV.Click += btnTeclado_Click;
+            btnTeclaV.KeyPress += Botões;
             // 
             // btnTeclaB
             // 
@@ -332,6 +355,7 @@
             btnTeclaB.Text = "B";
             btnTeclaB.UseVisualStyleBackColor = true;
             btnTeclaB.Click += btnTeclado_Click;
+            btnTeclaB.KeyPress += Botões;
             // 
             // btnTeclaN
             // 
@@ -342,6 +366,7 @@
             btnTeclaN.Text = "N";
             btnTeclaN.UseVisualStyleBackColor = true;
             btnTeclaN.Click += btnTeclado_Click;
+            btnTeclaN.KeyPress += Botões;
             // 
             // btnTeclaM
             // 
@@ -352,6 +377,7 @@
             btnTeclaM.Text = "M";
             btnTeclaM.UseVisualStyleBackColor = true;
             btnTeclaM.Click += btnTeclado_Click;
+            btnTeclaM.KeyPress += Botões;
             // 
             // btnEnter
             // 

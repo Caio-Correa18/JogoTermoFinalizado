@@ -39,14 +39,15 @@
             button7 = new Button();
             button8 = new Button();
             button9 = new Button();
+            button10 = new Button();
             SuspendLayout();
             // 
             // button1
             // 
             button1.Font = new Font("IsaacGame", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.Location = new Point(291, 385);
+            button1.Location = new Point(299, 382);
             button1.Name = "button1";
-            button1.Size = new Size(38, 31);
+            button1.Size = new Size(24, 31);
             button1.TabIndex = 1;
             button1.Text = "A";
             button1.UseVisualStyleBackColor = true;
@@ -55,18 +56,19 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(396, 227);
+            label1.Font = new Font("IsaacGame", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(389, 207);
             label1.Name = "label1";
-            label1.Size = new Size(50, 20);
+            label1.Size = new Size(220, 23);
             label1.TabIndex = 2;
-            label1.Text = "label1";
+            label1.Text = "The bind of Issac";
             // 
             // button2
             // 
             button2.Font = new Font("IsaacGame", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button2.Location = new Point(335, 385);
+            button2.Location = new Point(329, 382);
             button2.Name = "button2";
-            button2.Size = new Size(38, 31);
+            button2.Size = new Size(24, 31);
             button2.TabIndex = 3;
             button2.Text = "A";
             button2.UseVisualStyleBackColor = true;
@@ -74,9 +76,9 @@
             // button3
             // 
             button3.Font = new Font("IsaacGame", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button3.Location = new Point(379, 385);
+            button3.Location = new Point(359, 382);
             button3.Name = "button3";
-            button3.Size = new Size(38, 31);
+            button3.Size = new Size(24, 31);
             button3.TabIndex = 4;
             button3.Text = "A";
             button3.UseVisualStyleBackColor = true;
@@ -84,9 +86,9 @@
             // button4
             // 
             button4.Font = new Font("IsaacGame", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button4.Location = new Point(423, 385);
+            button4.Location = new Point(389, 382);
             button4.Name = "button4";
-            button4.Size = new Size(38, 31);
+            button4.Size = new Size(24, 31);
             button4.TabIndex = 5;
             button4.Text = "A";
             button4.UseVisualStyleBackColor = true;
@@ -94,9 +96,9 @@
             // button5
             // 
             button5.Font = new Font("IsaacGame", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button5.Location = new Point(476, 385);
+            button5.Location = new Point(422, 382);
             button5.Name = "button5";
-            button5.Size = new Size(38, 31);
+            button5.Size = new Size(24, 31);
             button5.TabIndex = 6;
             button5.Text = "A";
             button5.UseVisualStyleBackColor = true;
@@ -104,9 +106,9 @@
             // button6
             // 
             button6.Font = new Font("IsaacGame", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button6.Location = new Point(520, 385);
+            button6.Location = new Point(452, 382);
             button6.Name = "button6";
-            button6.Size = new Size(38, 31);
+            button6.Size = new Size(24, 31);
             button6.TabIndex = 7;
             button6.Text = "A";
             button6.UseVisualStyleBackColor = true;
@@ -114,9 +116,9 @@
             // button7
             // 
             button7.Font = new Font("IsaacGame", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button7.Location = new Point(564, 385);
+            button7.Location = new Point(482, 382);
             button7.Name = "button7";
-            button7.Size = new Size(38, 31);
+            button7.Size = new Size(24, 31);
             button7.TabIndex = 8;
             button7.Text = "A";
             button7.UseVisualStyleBackColor = true;
@@ -124,9 +126,9 @@
             // button8
             // 
             button8.Font = new Font("IsaacGame", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button8.Location = new Point(608, 385);
+            button8.Location = new Point(512, 382);
             button8.Name = "button8";
-            button8.Size = new Size(38, 31);
+            button8.Size = new Size(24, 31);
             button8.TabIndex = 9;
             button8.Text = "A";
             button8.UseVisualStyleBackColor = true;
@@ -134,12 +136,22 @@
             // button9
             // 
             button9.Font = new Font("IsaacGame", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button9.Location = new Point(652, 385);
+            button9.Location = new Point(611, 382);
             button9.Name = "button9";
-            button9.Size = new Size(38, 31);
+            button9.Size = new Size(24, 31);
             button9.TabIndex = 10;
             button9.Text = "A";
             button9.UseVisualStyleBackColor = true;
+            // 
+            // button10
+            // 
+            button10.Font = new Font("IsaacGame", 7.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button10.Location = new Point(654, 382);
+            button10.Name = "button10";
+            button10.Size = new Size(24, 31);
+            button10.TabIndex = 11;
+            button10.Text = "A";
+            button10.UseVisualStyleBackColor = true;
             // 
             // TermoOfIsaac
             // 
@@ -147,6 +159,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1002, 561);
+            Controls.Add(button10);
             Controls.Add(button9);
             Controls.Add(button8);
             Controls.Add(button7);
@@ -176,5 +189,6 @@
         private Button button7;
         private Button button8;
         private Button button9;
+        private Button button10;
     }
 }

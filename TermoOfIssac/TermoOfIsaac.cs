@@ -9,7 +9,7 @@ namespace TermoOfIssac
 
         private void Teclado(object sender, KeyPressEventArgs e)
         {
-            if (coluna > 5) return;
+            //*if (coluna > 5) return;
             //Botão do teclado 
             var button = (Button)sender;
             var linha = termo.palavraAtual;
@@ -20,6 +20,9 @@ namespace TermoOfIssac
             coluna++;
         }
 
-        
+        private void TermoOfIsaac_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
